@@ -118,3 +118,16 @@ e = "a string with a right side."
 
 print (w + e)
 
+# Some more printing
+x="Sang"
+print ("hello "+x+" my dear")
+# print("I Love You") * 10  Python 2 prints it 10 times
+
+#Escape character should be used ike unix.
+for i in ["/","- ","|","\\","|"]:
+    print ("%s\r" % i)
+
+# To get the inputs from user, we need to use input(). in py2 it is raw_input()
+
+
+
