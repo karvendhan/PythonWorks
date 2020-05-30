@@ -1,4 +1,5 @@
 import pandas as pd
+import pprint as pp
 import sys
 
 def dfDiff(oldfile,newfile,comkey):
@@ -13,8 +14,6 @@ def dfDiff(oldfile,newfile,comkey):
     print(diff)
 
 file1,file2,comkey=sys.argv[1],sys.argv[2],sys.argv[3]
-print(file1)
-print(file2)
-print(comkey)
+
 dfDiff(file1,file2,comkey)
 
